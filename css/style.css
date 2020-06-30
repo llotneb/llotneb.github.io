@@ -630,7 +630,10 @@ textarea {
 }
 .social-links li.github a:hover {
     color: #d52ac5;
-;
+
+}
+.social-links li.soundcloud a:hover {
+    color: #ff7300;    
 }
 
 /* Isotope Items
