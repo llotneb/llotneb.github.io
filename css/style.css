@@ -61,7 +61,7 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #339BEB;
+	color: #3dc738;
 }
 .text-colored {
 	color: #55acee;
@@ -70,7 +70,7 @@ a {
 	color: #55acee;
 }
 a:hover {
-	color: #339BEB;
+	color: #3dc738;
 }
 a:focus,
 a:active {
@@ -79,6 +79,11 @@ a:active {
 .large {
 	font-size: 18px;
 }
+
+.xlarge {
+    font-size: 22px;
+}
+
 img {
 	display: block;
 	max-width: 100%;
@@ -226,7 +231,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: rgba(93, 162, 73, 0.7);
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -316,8 +321,8 @@ blockquote {
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #3dc738;
+	border-color: #3dc738;
 }
 
 /* Collapse
@@ -476,11 +481,13 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #55acee;
+	color: #3dc738;
+    font-weight: bold;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #55acee;
+	color: #3dc738;
+    font-weight: bold;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -587,7 +594,7 @@ textarea {
 .social-links li {
 	margin: 10px 25px 10px 0;
 	display: inline-block;
-	font-size: 36px;
+	font-size: 50px;
 }
 .social-links li a {
 	color: #333333;
@@ -620,6 +627,10 @@ textarea {
 }
 .social-links li.pinterest a:hover {
 	color: #cb2027;
+}
+.social-links li.github a:hover {
+    color: #d52ac5;
+;
 }
 
 /* Isotope Items
@@ -673,7 +684,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	background-color: rgba(249, 224, 6, 0.4);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
