@@ -90,6 +90,12 @@
 					transitionDuration: '0.6s',
 					filter: "*"
 				});
+                // always filter items
+				var initialActiveElt = $(".filters").find("li.active")[0].firstChild;
+                var filterValue = $(initialActiveElt).attr('data-filter');
+                console.log(filterValue);
+				$container.isotope({ filter: filterValue });
+
 				// filter items on button click
 				$('.filters').on( 'click', 'ul.nav li a', function() {
 					var filterValue = $(this).attr('data-filter');
